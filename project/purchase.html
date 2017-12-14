@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+<script language="javascript" src="js/validator.js"></script>
+		<title>Email</title>
+	</head>
+	<body>
+	
+		<div id="header">
+			<div id="navbar">
+				<ul>
+					<li>Home</li>
+					<li>Room</li>
+					<li>Kitchen</li>
+					<li>Bathroom</li>
+				</ul>
+			</div>
+			<h2>Home Decor</h2>
+		</div>
+		<form name="htmlform" method="post" action="check_and_save_data.php" onsubmit="return(validations());">
+		<div id="left">
+		<table><tleft>
+		<tr>
+		<td><label for="Name">Name:</label></td>
+		<td><input type="alphabet" name="name" id="name"></td>
+		</tr>
+		<tr>
+		<td><label for="email">Email:</label></td>
+		<td><input type="email" name="email" id="email"></td>
+		</tr>
+		<tr>
+		<td><label for="Phone">Phone:</label></td>
+		<td><input type="number" name="phone" id="phone"></td>
+		</tr>
+		<tr>
+		<td><label for="pincode">Pin Code:</label></td>
+		<td><input type="number" name="pincode" id="pincode"></td>
+		</tr>
+		<tr>
+		<td><label for="discription">Discription:</label></td>
+		<td><textarea name="discription" id="discription" rows="5" cols="40"></textarea></td>
+		</tr><tr></tr>
+		<tr>
+		<td>
+
+		<div id="button">
+		<button type="submit">
+		<span class="bold">e-mail</span>
+		</button>
+			</div>
+</td>
+			</tr></tleft>
+		</table>
+		</div>
+		
+		</form>
+			</body>
+</html>
